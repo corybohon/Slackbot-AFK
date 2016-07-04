@@ -103,3 +103,13 @@ The AFK bot is proudly presented and crafted by [Cory Bohon](https://twitter.com
 ### Libraries Used 
 - Slim framework for routing (http://www.slimframework.com)
 - MeekroDB (https://github.com/SergeyTsalkov/meekrodb)
+
+## Contributions 
+Feel free to add any contributions to this project that you'd like as a Pull Request. The core team reserves the right to accept or reject any Pull Request. 
+
+## Future Goals
+
+* Add endpoint behind authentication called /users.json that will return a list of users and their current away status objects -- this will be used for native apps, or custom implementations for away messages. 
+* Create iOS (with watchOS) and macOS menu bar app that will read from the future JSON endpoint implementation to allow for viewing away status. 
+* Create an installation script that will allow for easier and more automatic setup
+* Crete a script that can be run as a cron job for automatically pulling in new Slack users into the AFK database and setting their current status to NULL
