@@ -49,7 +49,7 @@ $app->post(
 	$users = DB::query("SELECT * FROM Users WHERE userID = %s", $userID);
 	
 	if ($text == "help") {
-		echo("View documentation for AFK here: http://api.cocoaapp.com/afk/afk_slackbot.html");
+		echo("View documentation for AFK here: https://github.com/corybohon/Slackbot-AFK/blob/master/README.md");
 		return;
 	}
 	
