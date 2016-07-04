@@ -1,3 +1,5 @@
+<img src="http://i.giphy.com/3o6ozxZ37wJbc2N8TS.gif" alt="Slack animals" />
+
 # Slackbot-AFK
 A PHP-based slash command script for setting away status in Slack
 
