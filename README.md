@@ -27,7 +27,7 @@ Next, create the slash command for the `/whereis` command:
 1. Open [https://[TEAM-NAME].slack.com/apps/build/custom-integration](https://[TEAM-NAME].slack.com/apps/build/custom-integration)
 2. Select "Slash Commands" 
 3. Enter `/whereis` as the command to create
-4. On the next page, enter the URL as `https://[HOSTNAME]/index.php/whereis
+4. On the next page, enter the URL as `https://[HOSTNAME]/index.php/whereis`
 5. Ensure the method is `POST`
 6. Jot down the Token string that is given to you for this command. 
 
